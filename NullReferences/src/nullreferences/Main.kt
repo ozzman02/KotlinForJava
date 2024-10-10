@@ -34,4 +34,16 @@ fun main() {
     val something: Any = arrayOf(1, 2, 3, 4)
     val str6 = something as? String
     println(str6?.uppercase())
+
+    // non null assertion
+    // with ? you will never get a null pointer exception
+    val str7: String? = null
+    val test = str7!!.uppercase(); // here you will get a null pointer ex
+
+    if (str7 == null) {
+        throw Exception()
+    } else {
+        str7.uppercase();
+    }
+
 }
