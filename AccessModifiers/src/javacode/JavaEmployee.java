@@ -16,4 +16,19 @@ public class JavaEmployee {
         this.fullTime = true;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public boolean isFullTime() {
+        return fullTime;
+    }
+
+    public void setFullTime(boolean fullTime) {
+        this.fullTime = fullTime;
+    }
 }
