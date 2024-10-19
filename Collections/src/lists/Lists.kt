@@ -1,3 +1,5 @@
+package lists
+
 fun main() {
     val strings = listOf("spring", "summer", "fall", "winter")
     println(strings.javaClass) // class java.util.Arrays$ArrayList -> Immutable
