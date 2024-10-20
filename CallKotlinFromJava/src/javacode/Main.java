@@ -35,8 +35,6 @@ public class Main {
 
         StaticCar.defaultArgs("The number is:");
 
-
-
     }
 
 }
